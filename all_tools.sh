@@ -1,5 +1,5 @@
 build() {
-  podman build -t $1 -f $1.dockerfile
+  podman build -t $1 --target $1 .
 }
 
 build kerbrute
