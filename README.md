@@ -1,4 +1,4 @@
-# Offsec Toolbox
+# Offsec Toolboxes
 
 Source the `all_tools.sh` script to include all tools into your shell :
 
