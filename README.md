@@ -1,7 +1,5 @@
 # Offsec Toolboxes
 
-Source the `offsec-toolboxes.sh` script to include all tools into your shell :
-
 common tools
 
 * [cme](https://github.com/Porchetta-Industries/CrackMapExec) (uses the [online image](https://hub.docker.com/r/byt3bl33d3r/crackmapexec))
@@ -19,3 +17,7 @@ ldap-utils
 * [ldapsearch](https://www.openldap.org/software/man.cgi?query=ldapsearch)
 * [ldapurl](https://www.openldap.org/software/man.cgi?query=ldapurl)
 * [ldapwhoami](https://www.openldap.org/software/man.cgi?query=ldapwhoami)
+
+## Usage
+
+Add the content (or `source` the file) of `offsec-toolboxes.sh` to your `~/.bashrc`/`~/.zshrc`/`...`.
