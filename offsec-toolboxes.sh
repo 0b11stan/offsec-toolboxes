@@ -5,7 +5,7 @@ build() {
 }
 
 alias cme='mkdir -p ~/.cme && podman run -it --rm -v ~/.cme:/root/.cme -v $PWD:/srv -w /srv byt3bl33d3r/crackmapexec'
-alias kerbrute='build kerbrute; podman run -it -v $PWD:/srv kerbrute'
+#alias kerbrute='build kerbrute; podman run -it -v $PWD:/srv kerbrute'
 
 # open ldap
 alias ldapadd='build ldaputils; podman run ldaputils ldapadd'
